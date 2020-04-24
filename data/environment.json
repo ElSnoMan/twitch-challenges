@@ -1,0 +1,16 @@
+{
+  "staging": {
+    "url": "https://staging.website.com",
+    "token": "3i8f4o38f82i48fh54",
+    "flags": [
+      "guest", "new_buttons", "fast_telemetry"
+    ]
+  },
+  "production": {
+    "url": "https://website.com",
+    "token": "84hf839qf78fh8f27fh",
+    "flags": [
+      "new_buttons", "fast_telemetry"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+name,has_hair,has_beak, id
+bird,false,true,0001
+dog,true,false,0002
+elephant,true,false,0003
+platypus,true,true,0004
+kiwi,false,true,0005
