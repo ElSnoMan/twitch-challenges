@@ -1,6 +1,6 @@
 {
   "driver": {
-    "browser": "chrome",
+    "browser": "ie",
     "remote_url": "",
     "wait_time": 10,
     "options": []

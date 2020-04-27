@@ -95,6 +95,14 @@
             ],
             "version": "==2.9"
         },
+        "importlib-metadata": {
+            "hashes": [
+                "sha256:2a688cbaa90e0cc587f1df48bdc97a6eadccdcd9c35fb3f976a09e3b5016d90f",
+                "sha256:34513a8a0c4962bc66d35b359558fd8a5e10cd472d37aec5f66858addef32c1e"
+            ],
+            "markers": "python_version < '3.8'",
+            "version": "==1.6.0"
+        },
         "more-itertools": {
             "hashes": [
                 "sha256:5dd8bcf33e5f9513ffa06d5ad33d78f31e1931ac9a18f33d37e77a180d393a7c",
@@ -195,10 +203,10 @@
         },
         "pyleniumio": {
             "hashes": [
-                "sha256:bd9d3af869d464191fab08044148bbb02b685f27c64c0d1f6bface057b71ca97"
+                "sha256:9b051114b2f08e1130790f67ee1f1955f7609790b7b55838df9b687d6ce60d7a"
             ],
             "index": "pypi",
-            "version": "==1.4.1"
+            "version": "==1.5.1"
         },
         "pyparsing": {
             "hashes": [
@@ -290,6 +298,13 @@
                 "sha256:87f3f4bfda4917fa0ef1387fd1ddbbb5738e6961eb846434895801167771f652"
             ],
             "version": "==2.4.0"
+        },
+        "zipp": {
+            "hashes": [
+                "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b",
+                "sha256:c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96"
+            ],
+            "version": "==3.1.0"
         }
     },
     "develop": {}

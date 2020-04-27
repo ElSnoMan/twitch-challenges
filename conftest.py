@@ -116,6 +116,16 @@ def py_config(project_root, request) -> PyleniumConfig:
     if cli_browser_options:
         config.driver.options = [option.strip() for option in cli_browser_options.split(',')]
 
+    cli_browser = request.config.getoption('--browser')
+    if cli_browser:
+        config.driver.browser = cli_browser
+
+    cli_capabilities = request.config.getoption('--caps')
+    if cli_capabilities:
+        # --caps must be in '[{}, {}]' format
+        # with double quotes around each key and value
+        config.driver.capabilities = json.loads(cli_capabilities)
+
     # Logging Settings
     cli_pylog_level = request.config.getoption('--pylog_level')
     if cli_pylog_level:
@@ -198,4 +208,8 @@ def pytest_addoption(parser):
     parser.addoption(
         '--options', action='store',
         default='', help='Comma-separated list of Browser Options. Ex. "headless, incognito"'
+    )
+    parser.addoption(
+        '--caps', action='store',
+        default='', help='List of key-value pairs. Ex. "[{}, {}]"'
     )
