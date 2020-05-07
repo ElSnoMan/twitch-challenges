@@ -9,6 +9,7 @@ verify_ssl = true
 pytest = "*"
 pandas = "*"
 pyleniumio = "*"
+xlrd = "*"
 
 [requires]
 python_version = "3.7"
