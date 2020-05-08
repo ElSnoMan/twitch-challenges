@@ -10,6 +10,7 @@ pytest = "*"
 pandas = "*"
 pyleniumio = "*"
 xlrd = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
