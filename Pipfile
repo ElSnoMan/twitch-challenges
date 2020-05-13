@@ -8,9 +8,9 @@ verify_ssl = true
 [packages]
 pytest = "*"
 pandas = "*"
-pyleniumio = "*"
 xlrd = "*"
 matplotlib = "*"
+pyleniumio = "*"
 
 [requires]
 python_version = "3.7"
