@@ -39,7 +39,11 @@ def read_excel():
     # pprint(orders['Rep'].to_list())
 
     # print the values in a row
-    # pprint(orders.iloc[[0]])
+    pprint(orders.iloc[[0]])
+
+    # convert a row to a list of only its values
+    # row = list(orders.iloc[0])
+    # print(list)
 
     # print the value of a single cell
     # pprint(orders.iloc[[0]]['Rep'])
