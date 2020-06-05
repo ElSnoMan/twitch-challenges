@@ -10,7 +10,7 @@ pytest = "*"
 pandas = "*"
 xlrd = "*"
 matplotlib = "*"
-pyleniumio = {path = "./pyleniumio-1.8.1.tar.gz"}
+pyleniumio = "*"
 
 [requires]
 python_version = "3.7"
